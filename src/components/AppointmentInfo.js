@@ -1,11 +1,14 @@
 import { BiTrash } from "react-icons/bi";
 
-const AppointmentInfo = ({ appointment }) => {
-  const { petName, ownerName, aptNotes, aptDate } = appointment;
+const AppointmentInfo = ({ appointment, onDeleteAppointment }) => {
+  const { id, petName, ownerName, aptNotes, aptDate } = appointment;
 
   return (
     <li className="px-3 py-3 flex items-start">
       <button
+        onClick={() => {
+          onDeleteAppointment(id);
+        }}
         type="button"
         className="p-1.5 mr-1.5 mt-1 rounded text-white bg-red-500 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
       >
