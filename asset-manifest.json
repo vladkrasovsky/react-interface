@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-interface/static/css/main.e05369f5.css",
+    "main.js": "/react-interface/static/js/main.d2d6e353.js",
+    "index.html": "/react-interface/index.html",
+    "main.e05369f5.css.map": "/react-interface/static/css/main.e05369f5.css.map",
+    "main.d2d6e353.js.map": "/react-interface/static/js/main.d2d6e353.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e05369f5.css",
+    "static/js/main.d2d6e353.js"
+  ]
+}
